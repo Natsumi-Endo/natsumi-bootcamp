@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Typography</title>
+</head>
+<style>
+    * {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: 10px;
+        word-spacing: 0px;
+    }
+    h1 {
+        color: red;
+        font-style: italic;
+        text-transform: uppercase;/*大文字*/
+        text-decoration: overline;
+        text-align: center;/*中央揃え*/
+        text-shadow: 5px 5px 5px yellow;/*影*/
+    }
+    .chapter-1 p {
+        font-family: 'Courier New', Courier, monospace;
+        text-transform: lowercase;
+        text-indent: 50px;
+    }
+
+    .chapter-1 a {
+        font-size: 3em;
+        text-transform: lowercase;
+        text-decoration: none;/*not line*/
+    }
+
+    h2 {
+        font-weight: 100;
+        font-style: oblique;
+        text-transform: lowercase;
+    }
+
+    h3 {
+        text-decoration: line-through;
+    }
+
+    .chapter {
+        text-align: right;
+    }
+</style>
+<body>
+    <h1> To Kill a Mockingbird</h1>
+    <h2> by Harper Lee</h2>
+
+    <h3> Part 1 </h3>
+    <div class="chapter-1">
+        <h4 class="chapter" id="chapter-one"> Chapter 1 </h4>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto in tenetur, aliquam quibusdam delectus animi eveniet, recusandae nesciunt rerum, accusamus dolor! Cumque culpa, alias quidem reiciendis eligendi repellat ipsam doloremque?</p>
+        <a href="#"> Read More </a>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display</title>
+</head>
+<style>
+    p {
+        color: red;
+    }
+
+    p.ex1 {
+        display: none;
+    }
+
+    p.ex2 {
+        display: inline;/*side by side*/
+    }
+
+    p.ex3 {
+        display: block;
+    }
+
+    p.ex4 {
+        display: inline-block;/*inline conbine block*/
+    }
+
+    h2 {
+        display: none;/*gone*/
+    }
+</style>
+<body>
+    <h1>The display property</h1>
+
+    <h2>Diplay NONE</h2>
+    <div>Lorem, ipsum dolor sit amet <p class="ex1">HELLO WORLD</p>,consectetur adipisicing elit. Cum, quam tempora veniam inventore fugiat veritatis a necessitatibus ratione ut! Quasi, deserunt aut numquam ducimus laborum ipsum cumque fugiat nostrum minus!</div>
+
+    <h2>Diplay INLINE</h2>
+    <div>Lorem, ipsum dolor sit amet <p class="ex2">HELLO WORLD</p>,consectetur adipisicing elit. Cum, quam tempora veniam inventore fugiat veritatis a necessitatibus ratione ut! Quasi, deserunt aut numquam ducimus laborum ipsum cumque fugiat nostrum minus!</div>
+
+    <h2>Diplay BLOCK</h2>
+    <div>Lorem, ipsum dolor sit amet <p class="ex3">HELLO WORLD</p>,consectetur adipisicing elit. Cum, quam tempora veniam inventore fugiat veritatis a necessitatibus ratione ut! Quasi, deserunt aut numquam ducimus laborum ipsum cumque fugiat nostrum minus!</div>
+
+    <h2>Diplay INLINE-BLOCK</h2>
+    <div>Lorem, ipsum dolor sit amet <p class="ex4">HELLO WORLD</p>,consectetur adipisicing elit. Cum, quam tempora veniam inventore fugiat veritatis a necessitatibus ratione ut! Quasi, deserunt aut numquam ducimus laborum ipsum cumque fugiat nostrum minus!</div>
+</body>
+</html>

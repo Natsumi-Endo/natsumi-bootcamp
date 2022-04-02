@@ -1,0 +1,25 @@
+img {
+    width: 100%;
+}
+.photo {
+    background: aqua url(../images/junk.jpg) no-repeat fixed center center;
+    background-size: cover;
+
+}
+.photo-2 {
+    width: 200px;
+    height: 200px;
+}
+.photo-3 {
+    width: 100px;
+    height: 100px;
+}
+p{
+  background-image: url(../images/junk.jpg);  
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}

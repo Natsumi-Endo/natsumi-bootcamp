@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+</head>
+<body>
+    hello world
+    <div>
+
+
+    </div>
+    <div>
+        <!-- div is a block element -->
+        <!-- it starts on a new line and occupies the whole width -->
+        <!-- used to divide the web page for text/images/content -->
+    </div>
+​
+    <p>
+        <!-- p tag is an example of a block element -->
+        I am a <span>block</span> element.
+        <!-- span is an inline element
+            commonly used to group contents inside a block element
+        -->
+    </p>    
+    <hr>
+    <!-- Headings- used for headings/title -->
+    <h1>Largest - Most important word</h1>
+    <h2>Sub-topic - next most important</h2>
+    <h3>h3</h3>
+    <h4>h4</h4>
+    <h5>h5</h5>
+    <h6>h6 - least important</h6>
+    <hr>
+    <!-- paragraphy tag - used for paragraphs -->
+    <p>paragpraph 1</p>
+    <hr>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, unde?<br> Quod sunt quia delectus facere dolores quo quasi cupiditate magni? Delectus voluptate illo accusantium quia assumenda perferendis ullam architecto fugiat!</p>
+​
+    <!-- anchor tag -->
+    <a href="https://google.com">Click to go to Google.com</a>
+​
+    <!-- Ordered List -->
+    <ol>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+    </ol>
+​
+    <!-- unordered list -->
+    <ul>
+        <li>Coffee</li>
+        <li>tea</li>
+        <li>Juice</li>
+    </ul>
+​
+    <!-- Nested List - a list within a list-->
+    <ul>
+        <li>Drinks</li>
+            <ol>
+                <li>Water</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ol>
+        
+        <li>Food</li>
+            <ol>
+                <li>Cake</li>
+                <li>Pasta</li>
+                <li>Steak</li>
+            </ol>
+    </ul>
+    <!-- Image -->
+    <!-- source (src) attribute -> defines the location of the image-->
+    <!-- Alternative (alt) attribute -> describes the image; shows when the image fails to load-->
+    <img src="https://images.unsplash.com/photo-1648137840185-9428e75635e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="This is an image of a horse" width="75px" height="50%">
+​
+    <!-- HTML Table -->
+    <!-- 1 td is 1 column -->
+    <!-- 1 tr is 1 row -->
+    <table border="1px solid black"> <!--defines the table-->
+        <thead> <!--Defines the table heading-->
+            <tr> <!-- table row -->
+                <th>Name</th> <!--th is table head-->
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody> <!--table body defines the actual contents of the table-->
+            <tr> <!-- table row-->
+                <td>Natsumi Endo</td> <!--table data-->
+                <td>20</td> <!--table data-->
+                <td>Japan</td> <!--table data-->
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>25</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>Juan dela Cruz</td>
+                <td>18</td>
+                <td>Philippines</td>
+            </tr>
+        </tbody>  
+    </table>
+    
+    <br>
+    <!-- Colspan attribute -> allows you to define how many columns it will occupy -->
+​
+    <table border="1px border blue">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th colspan="2" >Contact Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Juan dela Cruz</td>
+                <td>111-111</td>
+                <td>222-222</td>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>333-333</td>
+                <td>444-444</td>
+            </tr>
+        </tbody>  
+    </table>
+    <table border="1px border blue">
+
+    <thead>
+        <th>Name<th colspan="2"></th>
+        <th>Contact Num</th>
+        
+    </thead>
+    <tbody>
+        <tr>
+            <td>Joan</td>
+            <td>111-111</td>
+            <td>222-222</td>
+        </tr>
+        <tr>
+            <td>Johon</td>
+            <td>333-333</td>
+            <td>444-444</td>
+        </tr>
+        
+    </tbody>
+</table>
+<br>
+<!---->
+<table border="1px border blue">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th colspan="2">Contct Number</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>John</td>
+            <td>26</td>
+            <td>111-111</td>
+            <td>222-222</td>
+        </tr>
+        <tr>
+            <td>Mark</td>
+            <td>38</td>
+            <td>222-222</td>
+            <td>23333-33</td>
+        </tr>
+    </tbody>
+    <tfoot></tfoot>
+</table>
+<br>
+
+<table border="1">
+    <tbody>
+        <tr>
+            <th>Name</th>
+            <td>Johon</td>
+            <td>Mark</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Conntact Number</th>
+            <td>111-111</td>
+            <td>22-222</td>
+        </tr>
+        <tr>
+            <td>333-333</td>
+            <td>555-555</td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
+
+</body>
+</html>

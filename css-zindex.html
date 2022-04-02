@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z Index</title>
+</head>
+<style>
+
+    img {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;/*imag backgoroud, you can see all the text */
+    }
+
+    .wrapper {
+        position: relative;
+    }
+
+    .dashed-box {
+        position: relative;
+        border: dashed;
+        height: 8em;
+        margin-bottom: 1em;
+        margin-top: 2em;
+        background-color: azure;
+        z-index: 3;
+    }
+
+    .gold-box {
+        position: absolute;
+        background-color: gold;
+        width: 80%;
+        left: 60px;
+        top: 3em;
+        z-index: 4;/*bigger the value infront*/
+    }
+    .green-box {
+        position: absolute;
+        background-color: lightgreen;
+        width: 20%;
+        left: 65%;
+        top: -5px;
+        height: 7em;
+        z-index: 1;
+    }
+</style>
+<body>
+    
+    <!-- <h1>This is a heading</h1>
+    <img src="https://www.w3schools.com/css/img_tree.png
+    " alt=""> -->
+
+    <p>Because the image has z-index of -1, it will be placed behind the text</p>
+
+
+    <div class="wrapper">
+        <div class="dashed-box">Dashed box</div>
+        <div class="gold-box">Gold box</div>
+        <div class="green-box">Green box</div>
+    </div>
+</body>
+</html>

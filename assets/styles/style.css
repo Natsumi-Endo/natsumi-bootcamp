@@ -1,0 +1,14 @@
+.img {
+    width: 100%;
+}
+.photo-2 {
+    width: 200px;
+    height: 200px;
+}
+.photo-3 {
+    width: 100px;
+    height: 100px;
+}
+p{
+  background-image: url(../images/junk.jpg);  
+}

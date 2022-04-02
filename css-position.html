@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+</head>
+
+<style>
+
+    div {
+        border: 1px solid green;
+        width: 30%;
+    }
+    .static {
+        position: static;/*default position    not change*/
+    }
+    .relative {
+        position: relative;
+        /* top: 50px;
+        left: 200px; */ /*2 direction is better*/
+        right: 0px;/*original position*/
+        bottom: 0px;
+    }
+
+    .fixed {
+        position: fixed;/*not moved*/
+        right: 0px;
+        bottom: 300px;
+    }
+
+    .absolute {
+        position: absolute;
+        left: 0;
+        top: 700px;
+    }
+
+</style>
+<body>
+    <h2>Positions</h2>
+
+    <h3>Position Static</h3>
+    <div class="static">
+        This div has static position
+    </div>
+
+    <h3>Position Ralative</h3>
+    <div class="relative">
+        This div has ralative position
+    </div>
+
+    <h3>Position Fixed</h3>
+    <div class="fixed">
+        This div has fixed position
+    </div>
+
+    <h3>Position Absolute</h3>
+    <div class="absolute">
+        This div has absolute position
+    </div>
+</body>
+</html>

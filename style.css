@@ -1,0 +1,39 @@
+/*External CSS   Style Sheet*/
+/*Universal selector  ---All Elements*/
+* {
+    font-style: italic;
+}
+
+/*Elements selectors*/
+/* h1 {
+    color: red;
+} */
+
+/* p {
+    color: green;
+} */
+
+/*Class selector*/
+.box {
+    background-color: yellow;
+}
+
+.box2 {
+    background-color: lightblue;
+}
+/*ID selector*/
+#a1 {
+    color: white;
+}
+
+.box h1 {
+    color: purple;
+}
+
+.box2 h2 {
+    color: crimson;
+}
+
+.box2 h4 {
+    color: darkblue;
+}

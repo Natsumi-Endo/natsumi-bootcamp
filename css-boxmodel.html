@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;/*Box size same*/
+    }
+    .box1 {
+        height: 700px;
+        width: 400px;
+        background-color: bisque;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px ridge black;
+        border-radius: 20px;
+
+        border-left: 5px double red;
+
+        overflow: auto;
+        box-shadow: -5px  -20px 0px 2px yellow;
+        /* float: right; */
+        /* box-sizing: border-box; */
+
+        display: inline;
+    }
+
+    .box2 {
+        /* box-sizing: border-box; */
+
+        height: 700px;
+        width: 400px;
+        padding: 20px;
+        background-color: aquamarine;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+<body>
+    <div class="box1">
+        <h1>This is a box</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, iusto voluptas. Minus repudiandae doloremque architecto inventore, eius a. Eius quisquam, a accusamus alias tenetur quae odio minima. Quia, ipsam non!</p>
+    </div>
+    <div class="box2">
+        <h1>This is a box</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet consectetur adipisicing elit.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, iusto voluptas. Minus repudiandae doloremque architecto inventore, eius a. Eius quisquam, a accusamus alias tenetur quae odio minima. Quia, ipsam non!</p>
+    </div>
+</body>
+</html>
